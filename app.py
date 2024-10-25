@@ -10,7 +10,7 @@ def initialize_chat():
     """ChatAnthropic の初期化"""
     return ChatAnthropic(
         api_key=os.getenv("ANTHROPIC_API_KEY"),
-        model="claude-3-sonnet-20240307",
+        model="claude-3-5-sonnet-20240620",
         temperature=0.7
     )
 
